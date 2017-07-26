@@ -1,1 +1,42 @@
-print "Hi"
+name = raw_input("User what is your name?: ")
+nickname = raw_input("What is your nickname?: ")
+print " IT the multichoice game by Cameron Johnson "
+print "One day in sunny Durvy. That what the adults call it today. Well it is sunny, IT the being which lurks in the sewers. IT NEVER SLEEPS."
+print "One day " + name
+print " Decided to walk outside for a stroll."
+lo = raw_input("Do you... A go meet your friends, OR B go find some Food. If you choose A, type a 2 letter word, if B type whatever thing you want BESIDES A 2 LETTER WORD: ")
+if len(lo) == 2:
+    print " You go to the hangout (Where you all hangout). All your friends are there. Bill,Josh,Micheal, and Will. The faint smell of maple lingers, posters of Famous Horror movies on the darkend oak walls. They all greet you."
+    print " Hey " + nickname
+    print " says Will. We need to figure out the mystery of IT " + nickname
+    so = raw_input("If you want to request to go to the sewers is A, OR just stay silent is B. Same thing to do like last time: ")
+    if len(so) == 2:
+        print " Hey we should go to the sewers so we can...you know...face the problams you said. the group agrees. "
+        print " you make it to the sewers the walls are damp just like you expected"
+        print " You hear a sharp shrill laugh and then everything goes dark and then you feel a hard slimey hand grip your neck"
+        print " THE END "
+    else:
+        print "You say nothing and you all go home. The end"
+
+else:
+    print " You head down to the closest dinner. the dinners name was Roxies, when you head in waitress great you with a warming smile. You then head to the open table and open the menu."
+    order = raw_input("Will you get A, the soup of the day or B ,the nachos. They each cost $5.00. You have $6.00. The anwser to the question is just like the first one.: ")
+    if len(order) == 2:
+        print " -$5.00, 10 HP gained , 15-20 HP. You leave the dinner."
+        erty = raw_input(" A Go to the Hangout, OR , B Go home. A is Go to the Hangout or B go home.: "
+
+        if len(erty) == 2:
+                         print " sorry not alilible"
+
+
+
+
+        else:
+        print " not availble
+                         
+
+
+
+
+
+
